@@ -1,0 +1,107 @@
+/* Contact Page Css */
+
+#contactPage .mainDiv .TitleContact {
+    font-weight: 600;
+    color: cadetblue;
+    letter-spacing: 2px;
+    margin-top: 10%;
+    text-align: center;
+}
+
+#contactPage .mainDiv .subDiv1 .imgDiv {
+    width: 100%;
+    height: 500px;
+    margin: 10% auto;
+}
+
+#contactPage .mainDiv .subDiv1 .imgDiv img {
+
+    /* margin-top: 20px; */
+    width: 100%;
+    height: 500px;
+    margin: 5px auto;
+    border-radius: 5px;
+    box-shadow: 0 0px 5px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* right Div */
+
+/* #contactPage .mainDiv .subDiv2 {
+    background-color: red;
+} */
+
+#contactPage .mainDiv .subDiv2 .FormDiv {
+
+    background-color: skyblue;
+    border-radius: 10px;
+    width: 100%;
+    height: 85vh;
+    padding: 10px;
+    margin-top: 2%;
+}
+
+.mainDiv .subDiv2 .inputDiv {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.mainDiv .subDiv2 .inputDiv .inputBox {
+    width: 90%;
+    padding: 0px;
+    border-radius: 50px;
+    border: none;
+    border-bottom: 2px solid #3e3e3e;
+    outline: none;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.05);
+    color: black;
+}
+
+
+.mainDiv .subDiv2 .inputDiv .inputBox:focus {
+
+    border-bottom: 2px solid darkturquoise;
+    background-color: rgba(0, 0, 0, 0.05);
+    color: #fff;
+}
+.BtnButton {
+    width: 90%;
+    padding: 8px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    cursor: pointer;
+}
+
+.FormDiv .inputDiv label {
+
+    font-family: serif;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.messageDiv {
+    width: 100%;
+    /* background-color: #3e3e3e; */
+    margin: 15px auto;
+}
+.messageDiv table{
+
+    width: 70%;
+    border: 5px solid skyblue;
+    background-color: rgb(168, 185, 199);
+    margin: 25px auto;
+    overflow-y: scroll;
+}
+
+table tbody{
+    overflow-y: scroll;
+    height: 100px;
+    overflow-y: scroll;
+
+}

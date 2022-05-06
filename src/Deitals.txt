@@ -1,0 +1,17 @@
+// React js In using All Document temples
+
+1. npm install @reduxjs/toolkit react-reduxjs
+2. npm install axios react-bootstrap 
+3. npm install @mui/material @emotion/react @emotion/styled -->OK
+4. npm install react-router-dom@6 -->OK
+5. npm install react-redux-thunk | saga
+6. lazy Loading..., public & Privet
+7. login & logout form  -->OK
+
+
+
+
+
+// * OtherNew *
+
+animation -> Framer Motion

@@ -1,0 +1,131 @@
+/* Home Page Css */
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+.TopHeader {
+    width: 100%;
+}
+
+.TopHeader .mainMenu .subMain {
+    position: relative;
+}
+
+.TopHeader .mainMenu .subMain .topContent {
+    /* background-color: beige; */
+    width: 95%;
+    position: absolute;
+    top: 200px;
+}
+
+.TopHeader .mainMenu .subMain .topContent .top_title {
+
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Koulen', cursive;
+    color: #333;
+    font-weight: 500;
+    margin: 10px auto;
+}
+
+.subMain .topContent .top_description {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 1.8em;
+    width: 95%;
+    margin: 10px auto;
+    font-weight: 500;
+}
+
+.subMain .topContent #TopSubscribe {
+    width: 95%;
+    margin: 15px auto;
+}
+
+#TopSubscribe .EmailFilled {
+
+    width: 95%;
+    position: relative;
+}
+
+#TopSubscribe #EmailBtn {
+
+    background-color: rgba(0, 0, 0, 0.011);
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    right: 50px;
+    border-radius: 20%;
+    margin-top: 4px;
+    font-size: 25px;
+    height: 47px;
+}
+
+/* Right Div */
+
+.mainMenu #rightDiv .ImgDiv {
+    /* background-color: #e3e3e3; */
+    margin: auto;
+    height: 90vh;
+    width: 95%;
+}
+
+.mainMenu #rightDiv .ImgDiv #mainImg {
+    margin: auto;
+    width: 65%;
+}
+
+.mainMenu #rightDiv .ImgDiv #mainImg img {
+    position: relative;
+    margin: 25% auto;
+    height: 400px;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.mainMenu #rightDiv .ImgDiv .sunImgDiv1 {
+
+    position: absolute;
+    bottom: 15%;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(157, 216, 208);
+    box-shadow: -5px 5px 10px rgb(89, 126, 126);
+}
+
+.mainMenu #rightDiv .ImgDiv .sunImgDiv2 {
+
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(153, 227, 231);
+    box-shadow: 5px -5px 10px rgb(116, 152, 149);
+}
+
+/* Second Section Css */
+
+#section2 {
+    margin: 15px auto;
+}
+
+#section2 .logoDiv #mainIconDiv {
+
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#section2 .logoDiv .IconLogo img {
+    width: 150px;
+    height: 150px;
+}
+#section2 .logoDiv .IconLogo img:hover{
+
+    transform: scale(1.1);
+    transition: all 0.5s;
+}

@@ -1,0 +1,51 @@
+.sectionSetting {
+    width: 100%;
+}
+
+.sectionSetting .loginDiv {
+    width: 100%;
+    height: 30vh;
+    background-image: url("https://images.pexels.com/photos/2246476/pexels-photo-2246476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0px 11px 10px rgba(0, 0, 0, 0.5);
+}
+
+.loginDiv .loginTitle {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: white;
+}
+
+.loginDiv .loginTitle .linkCSS {
+    color: white;
+}
+
+.loginDiv .loginTitle .linkCSS:hover {
+    color: skyblue;
+}
+
+.LoginForm {
+    margin: 25px auto;
+    width: 100%;
+    height: 60vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS123zLdzDB-vajVRfRKweCu8aBdO08XGE1VA&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.LoginForm .FormDiv .inputDiv{
+
+    width: 45%;
+    margin: 25px auto;
+}
+.LoginForm .FormDiv .inputBox{
+    width: 85%;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    margin: 10px auto;
+    font-size: 16px;
+}
