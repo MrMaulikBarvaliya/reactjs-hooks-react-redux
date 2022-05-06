@@ -80,7 +80,7 @@ const Dashboard = () => {
   ];
   return (
     <>
-      <Box component="div" className="TopHeader"> 
+      <Box component="div" className="TopHeader">
         <Grid container spacing={2} className="mainMenu">
           <Grid item xs={12} sm={6} md={6} lg={6} className="subMain">
             <Box component="div" className="topContent">
@@ -153,6 +153,7 @@ const Dashboard = () => {
         <Box sx={{ marginTop: "15px" }}>
           <Grid container>
             <Grid item xs={12}>
+              <h1 className="mt-5 text-success text-center"> ⚛️ reduxjs/toolkit & createAsyncThunk ⚛️</h1>
               <form size="sm" className="mb-3">
                 <label htmlFor="" className="h4 mt-5">
                   Search Id :{" "}
@@ -193,9 +194,9 @@ const Dashboard = () => {
                 <>
                   <Card sx={{ maxWidth: 345, marginTop: "15px" }}>
                     <CardContent>
-                      <Typography gutterBottom variant="h6" component="div">
+                      {/* <Typography gutterBottom variant="h6" component="div">
                         ID : {post[0].userId}
-                      </Typography>
+                      </Typography> */}
                       <Typography gutterBottom variant="h5" component="div">
                         {post[0].title}
                       </Typography>

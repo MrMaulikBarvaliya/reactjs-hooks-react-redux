@@ -29,6 +29,7 @@ const About = () => {
     setShowPost(true);
   };
 
+
   // Show Post Data
   const showCreatePost = () => {
     return (
@@ -38,9 +39,6 @@ const About = () => {
         ) : (
           <Card sx={{ maxWidth: 345, marginTop: "15px" }}>
             <CardContent>
-              <Typography gutterBottom variant="h6" component="div">
-                ID : {post[0].userId}
-              </Typography>
               <Typography gutterBottom variant="h5" component="div">
                 {post[0].title}
               </Typography>
@@ -102,14 +100,16 @@ const About = () => {
                   variant="contained"
                   color="warning"
                   className="ms-4"
-                  onclick={handleSubmitData}
+                  onClick={handleSubmitData}
                 >
                   Submit
                 </Button>
               </Grid>
             </Grid>
           </Box>
-          <div className="mt-4">{showPost && <div>{showCreatePost()}</div>}</div>
+          <div className="mt-4">
+            {showPost && <div>{showCreatePost()}</div>}
+          </div>
         </div>
       </div>
     </>

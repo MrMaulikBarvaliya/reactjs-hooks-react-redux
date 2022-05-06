@@ -56,7 +56,7 @@ const Sidebar = ({ children }) => {
                 to={item.path}
                 key={item.id}
                 className="link"
-                activeclassName="active"
+                activeClassName="active"
               >
                 <div className="icon">{item.icon}</div>
                 <div
@@ -70,7 +70,7 @@ const Sidebar = ({ children }) => {
             );
           })}
           {!auth.user && (
-            <NavLink to="/setting" className="link" activeclassName="active">
+            <NavLink to="/setting" className="link" activeClassName="active">
               <div className="icon">
                 <FaCog />
               </div>
